@@ -1,0 +1,122 @@
+html {scroll-behavior: smooth;}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #800040;
+}
+
+.logo {
+  height: 150px;
+  width: auto;
+}
+
+.header-text {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.header-text h1 {
+  margin: 0;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.header-text h2 {
+  margin: 0;
+  font-size: 1.5em;
+  font-weight: normal;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: whitesmoke;
+  margin: 0;
+  padding: 20px;
+}
+
+.tit h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+form p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  text-align: justify;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus,
+textarea:focus {
+  border-color: seagreen;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  outline: none;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 15px;
+  background-color: lawngreen;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: green;
+}
+
+.main-footer {
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0;
+  margin-top: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-footer p {
+  margin: 5px 0;
+}
+
+.main-footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 5px;
+}
+
+.main-footer li {
+  margin-bottom: 5px;
+}

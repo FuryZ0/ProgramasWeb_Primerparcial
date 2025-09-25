@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+  <link rel="stylesheet" href="css/style4.css">
+</head>
+<header class="main-header">
+  <img src="img/logoipn.png" alt="Logo IPN" class="logo">
+  <div class="header-text">
+    <p>
+    <h1>Instituto Politécnico Nacional</h1></p>
+    <p>
+    <h2>Unidad Profesional Interdisciplinaria de Ingeniería y Ciencias Sociales y Administrativas</h2></p>
+  </div>
+  <img src="img/logoupiicsa.png" alt="Logo UPIICSA" class="logo">
+</header>
+<body>
+<div class="tit">
+  <h1>Formulario de registro</h1>
+</div>
+<div class="container">
+  <form action="" method="get">
+    <p>Nombre:</p>
+    <p>
+      <input type="text" name="nombre" maxlength="50"/>
+    </p>
+    <p>Apellidos:</p>
+    <p>
+      <input type="text" name="apellidos" maxlength="50"/>
+    </p>
+    <p>Sexo:</p>
+    <div class="custom-radio">
+      <input type="radio" id="hombre" name="sexo" value="hombre" checked>
+      <label for="hombre">Hombre</label>
+    </div>
+    <div class="custom-radio">
+      <input type="radio" id="mujer" name="sexo" value="mujer">
+      <label for="mujer">Mujer</label>
+    </div>
+    <p>Correo:</p>
+    <p>
+      <input type="text" name="correo" maxlength="100"/>
+    </p>
+    <p>
+      Población:
+    <div id="custom-select">
+      <select id="pob" name="pob">
+        <option value="alic">Alicante</option>
+        <option value="madrid">Madrid</option>
+        <option value="sevil">Sevilla</option>
+      </select>
+    </div>
+    </p>
+    <p><label for="desc">Descripción:</label></p>
+    <p>
+      <textarea id="desc" name="descp" rows="4" cols="50"></textarea>
+    </p>
+    <div class="custom-checkbox">
+      <p>
+        <input type="checkbox" id="info" name="info" required/>
+        <label for="info">Deseo recibir información sobre novedades y ofertas.</label>
+      </p>
+    </div>
+    <div class="custom-checkbox">
+      <p>
+        <input type="checkbox" id="condiciones" name="condiciones" required/>
+        <label for="condiciones">Confirmo haber leído y aceptar las condiciones generales del programa y la normativa
+          sobre protección de datos.</label>
+      </p>
+    </div>
+    <p>
+      <input type="submit" value="Enviar"/>
+    </p>
+  </form>
+</div>
+<footer class="main-footer">
+  <p>Alumnos:</p>
+  <ul>
+    <li>Medina Gómez Jonathan Ramón</li>
+    <li>Mendoza Olvera Diego Alejandro</li>
+  </ul>
+</footer>
+</body>
+</html>
